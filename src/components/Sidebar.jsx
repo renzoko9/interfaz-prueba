@@ -3,7 +3,7 @@ import imageLogo from '../assets/foxbel-music.svg'
 
 const Sidebar = () => {
   return (
-    <div className="sidebar bg-[#662323] flex flex-col h-screen w-64 p-4">
+    <div className="absolute bg-[#662323] flex flex-col text-white h-screen w-64 p-4">
       <div className="">
         <img src={imageLogo} alt='logo'/>
       </div>
